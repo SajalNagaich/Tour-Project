@@ -1,0 +1,87 @@
+ .header_wrappper{
+    margin-top: 160px;
+    padding: 0 ;
+}
+
+.imageContainer{
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+    background: url(./../../assets/landscape-Panorama-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: 18px;
+    z-index: 1;
+    position: relative;
+    animation: anim_change_img 2s infinite linear alternate; 
+
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.imageContainer::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+
+}
+
+@keyframes anim_change_img {
+    0%{
+        background: url(./../../assets/landscape-Panorama-02.jpg);
+        
+    }
+
+    100%{
+        background: url(./../../assets/landscape-Panorama-03.jpg);
+        
+    }
+    
+}
+
+.imageContainer h2{
+    font-size: 43px;
+    line-height: 60px;
+    color: #fff;
+    margin-top: 180px;
+    width: 50%;
+    padding-left: 20px;
+
+} 
+
+.swiper{
+    width: 70% !important;
+    margin-top: -70px;
+
+}
+
+.DestinationCard{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+
+}
+
+.DestinationCard img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:580px) {
+    .imageContainer{
+        height: 300px;
+        padding: 20px;
+    }
+    .imageContainer h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    
+}
