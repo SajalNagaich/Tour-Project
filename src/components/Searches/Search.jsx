@@ -3,7 +3,7 @@ import style from './../Searches/search.module.css'
 
 const Search = () => {
   return (
-    <div className={`${style.search_wrapper} section`}>
+    <div className={`${style.search_wrapper} section`} id="searches">
         <h2>Populer Searches</h2>
 
         <div className={style.Cards}>

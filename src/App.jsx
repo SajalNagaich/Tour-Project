@@ -7,7 +7,8 @@ import Search from './components/Searches/Search'
 import About from './components/About/About'
 import Testimonial from './components/Testimonial/Testimonial'
 import Destination from './components/destinations/Destination'
-import Footer from './footer/Footer'
+import CalltoAction from './components/footer/CalltoAction'
+import Footer from './components/footer/Footer'
 
 const App = () => {
   return (
@@ -26,8 +27,10 @@ const App = () => {
         <Testimonial></Testimonial>
         <Destination></Destination>
         <div className="main">
-          <Footer></Footer>
+          <CalltoAction></CalltoAction>
         </div>
+        <Footer></Footer>
+
     </>
   )
 }

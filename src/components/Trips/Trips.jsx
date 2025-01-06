@@ -13,7 +13,7 @@ import trip08 from './../../assets/Trips08.jpg'
 
 const Trips = () => {
   return (
-    <div className={` ${style.trips_wrapper} section`}>
+    <div className={` ${style.trips_wrapper} section`} id="trips">
         <h2>Popular Trips</h2>
 
         <div className={style.cards}>

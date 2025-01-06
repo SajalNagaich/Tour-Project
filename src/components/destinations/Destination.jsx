@@ -126,7 +126,7 @@ const destinations = [
 
 const Destination = () => {
   return (
-    <div className={`${style.destinationWrapper} section`}>
+    <div className={`${style.destinationWrapper} section`} id="populerdestination">
       <h2>Popular Destinations</h2>
       <div className={style.gridContainer}>
         {destinations.map((destination) => (

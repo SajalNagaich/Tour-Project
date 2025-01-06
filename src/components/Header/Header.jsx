@@ -15,7 +15,7 @@ import destinationImg6 from './../../assets/tour-06.png'
 
 const Header = () => {
   return (
-    <div className={`${style.header_wrappper} section`}>
+    <div className={`${style.header_wrappper} section`} id="home">
         <div className={style.imageContainer}>
             <h2>Explore the World , <br /> one Unforgattable Jorney</h2>
         </div>

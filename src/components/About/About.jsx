@@ -5,7 +5,7 @@ import aboutImg from './../../assets/about-bg.png'
 
 const About = () => {
   return (
-    <div className={` ${style.about_wrapper} section`}>
+    <div className={` ${style.about_wrapper} section`} id="about">
         <div className={style.about_image}>
             <img src={aboutImg} alt="about-img" />
         </div>
