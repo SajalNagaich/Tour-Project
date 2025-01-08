@@ -12,6 +12,7 @@ import MemoriesImg7 from './../../assets/travelport7.jpg'
 
 
 const Memories = () => {
+    
   return (
     <div className={` ${style.Memories_wrapper} section`} id="memories">
         <div className={style.MemoriesCard}>
